@@ -1,3 +1,4 @@
+require 'pry'
 def find_even_values(src)
   output1 = []
   output2 = []
@@ -22,6 +23,7 @@ def find_even_values(src)
     count +=1
   end
   output2
+  binding.pry
 end 
   
   # Given an Array of Arrays of Integers ( [ [10, 11], [99, 50, 3, 4], [23, 41] ] ):
