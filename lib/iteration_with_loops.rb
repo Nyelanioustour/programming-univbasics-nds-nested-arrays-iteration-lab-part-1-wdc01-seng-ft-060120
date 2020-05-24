@@ -1,5 +1,5 @@
 def find_even_values(src)
-  output = []
+  output1 = []
   row_index = 0 
 
   while row_index < src.count do
@@ -14,10 +14,12 @@ def find_even_values(src)
   end
   
   count = 0 
-  while count < output.count
-    if output[count] % 2 == 1 
-      return output[count]
-  end end
+  while count < output1.count
+    if output1[count] % 2 == 1 
+      output2 << output1[count]
+    end 
+  end
+  output2
 end 
   
   # Given an Array of Arrays of Integers ( [ [10, 11], [99, 50, 3, 4], [23, 41] ] ):
