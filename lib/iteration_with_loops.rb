@@ -5,9 +5,11 @@ def find_even_values(src)
   while row_index < src.count do
     
     element_index = 0 
+    output1 = []
+    output2 = []
     
     while element_index < src[row_index].count do
-      output << src[row_index][element_index] 
+      output1.push(src[row_index][element_index])
       element_index += 1
     end 
       row_index += 1 
