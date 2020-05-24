@@ -16,7 +16,7 @@ def find_even_values(src)
   count = 0 
   while count < output1.count
     if output1[count] % 2 == 1 
-      output2 << output1[count]
+      output2.push(output1[count])
     end 
   end
   output2
