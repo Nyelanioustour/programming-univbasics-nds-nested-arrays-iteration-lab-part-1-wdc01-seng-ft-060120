@@ -1,12 +1,11 @@
 def find_even_values(src)
   output1 = []
+  output2 = []
   row_index = 0 
 
   while row_index < src.count do
     
     element_index = 0 
-    output1 = []
-    output2 = []
     
     while element_index < src[row_index].count do
       output1.push(src[row_index][element_index])
