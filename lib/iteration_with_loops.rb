@@ -11,8 +11,8 @@ def find_even_values(src)
   #
   # Output all even values in each nested array
   output_count = 0
- while output.length < output_count do
+  while output.length < output_count do
   
-output[count]
-end
+    output[count]
+  end
 end
